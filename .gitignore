@@ -1,0 +1,28 @@
+# Downloaded or derived participant data remain local.
+/data/
+/raw/
+/processed/
+/artifacts/
+*.zip
+
+# Local environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Credentials and local settings.
+.env
+.env.*
+!.env.example
+
+# Large model outputs.
+/checkpoints/
+/models/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
