@@ -14,6 +14,7 @@ The topic is selected and data access is confirmed. The complete CGMacros v1.0.0
 
 - [Topic and dataset selection](docs/topic-selection.md)
 - [Verified data-access check and known issues](docs/data-check.md)
+- [Project checklist and submission deadlines](CHECKLIST.md)
 
 ## Prediction task
 
@@ -93,14 +94,9 @@ Compare the printed archive hash with its entry in `data/raw/SHA256SUMS.txt`. Th
 
 There is no executable training pipeline in this initial repository. Reproduction instructions, dependencies, and experiment settings will be added alongside the implementation.
 
-## Next steps
+## Project checklist
 
-- Resolve native sensor sampling, interpolation, gaps, and meal-feature availability.
-- Define participant splits and calibration/test windows.
-- Implement and verify the persistence baseline.
-- Train the shared model and test limited personal calibration.
-- Compare results across participants and post-meal periods.
-- Document limitations, verification, and the computational workflow in the final paper and video.
+The [project checklist](CHECKLIST.md) tracks the required milestones, paper, video, and final submission. The immediate next step is to submit the topic-selection statement. The main technical preparation for the proposal is resolving sensor sampling and interpolation, then fixing the evaluation design.
 
 ## References
 
